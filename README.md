@@ -55,3 +55,17 @@ CUDA_VISIBLE_DEVICES="0,1,2,3" python -m torch.distributed.launch --nproc_per_no
 - numpy 1.23.5
 - pytorch 1.8.0
 - torchvision 0.9.0
+
+## Reference
+For technical details and full experimental results, please check the paper. If you have used our work in your own, please consider citing:
+
+```bibtex
+@article{LI2023109835,
+title = {Dynamics-aware loss for learning with label noise},
+author = {Xiu-Chuan Li and Xiaobo Xia and Fei Zhu and Tongliang Liu and Xu-Yao Zhang and Cheng-Lin Liu},
+journal = {Pattern Recognition},
+volume = {144},
+pages = {109835},
+year = {2023},
+}
+```
